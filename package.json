@@ -1,0 +1,13 @@
+{
+  "name": "sprintmart-tests",
+  "version": "1.0.0",
+  "description": "SprintMart QA repository - manual test cases and Playwright automation, owned by the QA team and kept separate from the application code.",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}
